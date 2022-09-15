@@ -9,52 +9,44 @@ body, button, input, select, textarea
 
 
 .wrapper
-    // width: 1200px
     max-width: 1200px
     margin: 0px auto
-
 
 .menu-navigatoin-block
     border: 1px solid #1E73BE
     padding: 20px
     margin: 20px
-
-ul 
-    padding: 0px
-    margin: 0px
-li 
-    list-style-type: none
-    margin-left: 5px
-    margin-top: 5px
-
-
-a 
-    position: relative
-    height: 100%
-    font-weight: bold
-    font-size: 20px
-    color: #1E73BE
-    transition: .2s
-    text-decoration: none
-    cursor: pointer
-    border-bottom: 3.2px solid #D8DCE9
-
-a:after 
-    content: ''
-    position: absolute
-    bottom: -3px
-    right: 0
-    height: 3px
-    width: 100%
-    transform: scale(0, 1)
-    transition: transform 0.4s
-    background: #1E73BE
-    transform-origin: right top
-
-a:hover:after 
-    transform: scale(1, 1)
-    transform-origin: left top
-    // transform-origin: right top
+    ul 
+        padding: 0px
+        margin: 0px
+        li 
+            list-style-type: none
+            margin-left: 5px
+            margin-top: 5px
+            a 
+                position: relative
+                height: 100%
+                font-weight: bold
+                font-size: 20px
+                color: #1E73BE
+                transition: .2s
+                text-decoration: none
+                cursor: pointer
+                border-bottom: 3.2px solid #D8DCE9
+            a:after 
+                content: ''
+                position: absolute
+                bottom: -3px
+                right: 0
+                height: 3px
+                width: 100%
+                transform: scale(0, 1)
+                transition: transform 0.4s
+                background: #1E73BE
+                transform-origin: right top
+            a:hover:after 
+                transform: scale(1, 1)
+                transform-origin: left top
 
 .faq-body
     margin: 20px
