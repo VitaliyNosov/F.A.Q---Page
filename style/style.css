@@ -9,14 +9,14 @@ body, button, input, select, textarea {
 }
 
 .wrapper {
-  width: 1200px;
-  margin: 0 auto;
+  max-width: 1200px;
+  margin: 0px auto;
 }
 
 .menu-navigatoin-block {
   border: 1px solid #1E73BE;
   padding: 20px;
-  margin-top: 20px;
+  margin: 20px;
 }
 
 ul {
@@ -61,7 +61,7 @@ a:hover:after {
 }
 
 .faq-body {
-  margin-top: 50px;
+  margin: 20px;
   margin-bottom: 50px;
 }
 .faq-body span {
